@@ -16,4 +16,4 @@ app.get(`/contact`, (req, res) => {
     res.sendFile(`${baseUrl}Contact.html`);
 });
 
-app.listen(4000, () => console.log("App is listening on port 4000."));
+app.listen((process.env.PORT || 4000), () => console.log("App is listening on port 4000."));
