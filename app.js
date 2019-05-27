@@ -2,7 +2,7 @@ const express = require(`express`);
 
 const app = express();
 
-const baseUrl = `C:\\Users\\Travy\\WebstormProjects\\comp-2069-js-blog-project\\`;
+const baseUrl = `C:\\Users\\Travis\\WebstormProjects\\comp-2068-js-blog-project\\`;
 
 app.get(`/`, (req, res) => {
     res.sendFile(`${baseUrl}Home.html`);
